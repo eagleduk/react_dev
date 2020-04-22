@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import Covidlist from "./Covid/CovidList";
+//import LottoMain from "./lotto/LottoMain";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//const appKey = "6e5131062fmshb255f6136f41bfap170c64jsndbd750522f9a";
+
+class App extends React.Component {
+  render() {
+    return (
+      /* <Covidlist appKey={appKey} /> */
+      // <LottoMain />
+      <div>
+        <h1> 뭐를 할까나... </h1>
+      </div>
+    );
+  }
 }
 
 export default App;

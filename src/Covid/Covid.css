@@ -1,0 +1,30 @@
+.contanier {
+  width: 80%;
+  height: 80px;
+  align-items: center;
+  margin-left: 10%;
+}
+.textTitleStyle {
+  width: 50%;
+  float: left;
+  height: 100%;
+  margin: 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.textNormalStyle {
+  width: 12%;
+  float: left;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textColorRed {
+  color: red;
+}
