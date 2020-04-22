@@ -14,3 +14,31 @@
 
 bootstrap 설치
 yarn add bootstrap || npm install bootstrap --save
+
+react-router-dom 설치
+yarn add react-router-dom || npm install react-router-dom --save
+
+\*\* import {} from '' 시에
+as 로 alias?? 를 지정할수 있다. DB 처럼..
+
+\*\*MongoDB 설치
+https://www.mongodb.com/
+\*\*\*MongoDB 에 대한 기본 설치및 설정 방법
+https://velopert.com/436
+
+\*\*폴더 생성 후 Package.json 파일을 생성하고,
+npm init -y 하여 Package.json 파일을 초기화.
+그리고 해당 폴더에서 yarn, npm 명령어를 하면 해당 폴더해서 실행.
+
+\*\* express, body-parser, cors, mongoose add
+yarn add express body-parser cors mongoose || npm install express body-parser cors mongoose --save
+
+\*\* nodemon add
+npm install nodemon --save-dev
+
+\*\* node server start
+node ./{server js 파일}
+
+api/business.model.js => 아무래도 DB 테이블 정의인듯.
+\*\*\* model에서 스키마를 정할때, mongoDB는 자동으로 복수화를 하여 저장한다. 복수형을 쓰지 않으려면, collection : {테이블 이름} 으로 지정해주어야 한다.
+api/business.route.js => Url에 따른 controller 쯤?
