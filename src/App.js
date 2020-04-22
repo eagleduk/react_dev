@@ -1,6 +1,7 @@
 import React from "react";
 //import Covidlist from "./Covid/CovidList";
 //import LottoMain from "./lotto/LottoMain";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 //const appKey = "6e5131062fmshb255f6136f41bfap170c64jsndbd750522f9a";
 
