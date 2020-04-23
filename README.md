@@ -69,3 +69,8 @@ firebase Database에 데이터를 전송할때 Key,Value 형태로 보내면 칼
 \*\* Router 에서 props를 전달하는 방법----
 <Route path={} component={}> 에서
 <Route path={} render={() => {<{컴포넌트명} {파라미터명}={파라미터값}>}}>
+
+5. Higher Order Components Tutorial
+
+같은 value key값을 받는 Component를 함수화 하여서 관리하는 듯한...
+해당 Component 와 데이터를 넘겨서 처리하는 방법..
