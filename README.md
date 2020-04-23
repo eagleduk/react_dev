@@ -42,3 +42,30 @@ node ./{server js 파일}
 api/business.model.js => 아무래도 DB 테이블 정의인듯.
 \*\*\* model에서 스키마를 정할때, mongoDB는 자동으로 복수화를 하여 저장한다. 복수형을 쓰지 않으려면, collection : {테이블 이름} 으로 지정해주어야 한다.
 api/business.route.js => Url에 따른 controller 쯤?
+
+4. Google Firebase
+   : Google이 제공하는 클라우드 Database 정도..??
+   npm install -g firebase-tools
+
+\*\*\* constructor 에서 super(props) 꼭꼭 빼먹으면 안된다...
+
+\*\*\* yarn add trim , yarn add lodash
+
+firebase config
+var firebaseConfig = {
+apiKey: "{api-key}",
+authDomain: "{project-id}.firebaseapp.com",
+databaseURL: "https://{project-id}.firebaseio.com",
+projectId: "{project-id}",
+storageBucket: "{project-id}.appspot.com",
+messagingSenderId: "{sender-id}",
+appId: "{app-id}",
+measurementId: "G-{measurement-id}",
+};
+
+firebase Database에 데이터를 전송할때 Key,Value 형태로 보내면 칼럼이랑 자동으로 추가 된다..
+실시간으로 적용된다... firebase에서 삭제하면 리스트에서 자동으로 삭제된다..
+
+\*\* Router 에서 props를 전달하는 방법----
+<Route path={} component={}> 에서
+<Route path={} render={() => {<{컴포넌트명} {파라미터명}={파라미터값}>}}>

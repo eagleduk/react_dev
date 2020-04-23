@@ -21,7 +21,7 @@ class CRUDMain extends React.Component {
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <Link to={"/"} className="nav-link">
+                  <Link to={"/CRUDMain"} className="nav-link">
                     Home
                   </Link>
                 </li>

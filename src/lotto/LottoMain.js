@@ -36,11 +36,7 @@ class LottoMain extends React.Component {
 
       const url = `https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=${round++}`;
 
-      const game = await Axios({
-        method: "GET",
-        url: url,
-        header: {},
-      }).catch((error) => {
+      const game = await Axios.get(url).catch((error) => {
         throw ("error", error);
       });
       games.push(game);
@@ -51,7 +47,11 @@ class LottoMain extends React.Component {
 
   render() {
     const { isLoading, round, games } = this.state;
-    return <div>{isLoading ? <Loading /> : <h1>Lotto 할꺼야</h1>}</div>;
+    return (
+      <div>
+        {isLoading ? <Loading /> : <h1>Lotto 할꺼야 언젠가는 되겠지..</h1>}
+      </div>
+    );
   }
 }
 
